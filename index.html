@@ -14,7 +14,7 @@
     <![endif]-->
 
     <style media="screen">
-    .overlay {
+    #overlay {
       background-color: #FFFFFF;
       position: absolute;
       width: 100%;
@@ -38,7 +38,7 @@
       cursor: pointer;
     }
 
-    .selected-word {
+    #selected-word {
       font-size: 50px;
       width: 80%;
       margin: auto auto;
@@ -46,22 +46,22 @@
       text-align: center;
     }
 
-    .prompt {
-      font-size: 200px;
+    #prompt {
+      font-size: 150px;
       width: 80%;
       margin: auto auto;
       text-align: center;
       height: 250px;
     }
 
-    .emoji {
+    #emoji {
       font-size: 100px;
       width: 80%;
       margin: auto auto;
       text-align: center;
     }
 
-    .message {
+    #message {
       text-align: center;
       width: 100%;
     }
@@ -85,14 +85,14 @@ car</textarea>
 
     </div>
 
-    <div id="overlay" class="overlay">
+    <div id="overlay">
       <div id="close">x</div>
-      <div class="selected-word"></div>
-      <div class="prompt">
+      <div id="selected-word"></div>
+      <div id="prompt">
         hello world
       </div>
-      <div class="emoji"></div>
-      <div class="message">Type the word you see on the screen</div>
+      <div id="emoji"></div>
+      <div id="message">Type the word you see on the screen</div>
     </div>
 
 
